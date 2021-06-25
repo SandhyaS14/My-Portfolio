@@ -1,0 +1,21 @@
+body {
+    background: linear-gradient(rgb(36, 191, 252) 0%, rgb(230, 243, 54) 100%);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.line {
+    width: 85px;
+    height: 8px;
+    margin: 8px auto;
+    background-color: black;
+}
+
+img {
+    transition: transform .2s;
+    margin-right: 5px;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
